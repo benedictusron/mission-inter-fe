@@ -1,5 +1,6 @@
 @import "tailwindcss";
-        @theme {
+        
+@theme {
         --color-clifford: #da373d;
         --color-primary: #3ECF4C;
         --color-primary-100: rgba(226, 252, 217, 0.8);
@@ -42,3 +43,12 @@
         .hide-scrollbar::-webkit-scrollbar {
             display: none; /* Chrome, Safari, Opera */
         }
+        
+/* @layer base {
+    body {
+        font-display: "Lato", sans-serif;
+         
+    }
+} */
+
+        
