@@ -5,7 +5,6 @@ import ListMenuProfile from './ListMenuProfile';
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
-
   return (
     <header className='bg-light-primary shadow-sm'>
         <nav className="container mx-auto max-w-[1200px] px-4 md:px-6 lg:px-10 py-4 md:flex md:justify-between md:items-center ">

@@ -3,7 +3,7 @@ import { Routes,Route } from 'react-router-dom'
 import './App.css'
 import Login from './pages/Login'
 import Register from './pages/Register'
-import Beranda from './pages/Home'
+import Beranda from './pages/Home/Home'
 
 function App() {
  
