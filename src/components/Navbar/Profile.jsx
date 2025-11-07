@@ -1,15 +1,23 @@
-import Ava from '../../assets/Avatar.png'
+import { useState } from 'react';
+import Ava from '../../assets/Avatar.png';
+import ListMenuProfile from './ListMenuProfile';
 
 function Profile() {
-    const buttonProfile = document.getElementById('button-Profile');
-
- 
+    const [isOpen, setIsOpen] = useState(false);
     return (
-        <button className="button-profile px-0 py-2 ms-5">
-            <a href="">
-                <img src={Ava} alt="Profile Ava" />
-            </a>
-        </button>
+        <div className='relative'>
+            <button onClick={() => setIsOpen(!isOpen)}
+                className="flex items-center focus:outline-none">
+                <img
+                    src={Ava}
+                    alt="Profile Ava"
+                    className='' />
+            </button>
+
+            {isOpen && (
+                <ListMenuProfile />
+            )}
+        </div>
     )
 }
 
