@@ -4,11 +4,9 @@ import Hero from './Hero'
 function Home() {
   return (
     <>
-      <header>
-        <Navbar />
-      </header>
+      <Navbar />
       <main>
-      <Hero/>
+        <Hero />
       </main>
     </>
   )
