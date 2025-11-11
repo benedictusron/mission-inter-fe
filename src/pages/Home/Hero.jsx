@@ -2,8 +2,8 @@ import bgHero from '../../assets/hero.jpg'
 import Button from '../../components/ui/Button'
 function Hero() {
   return (
-    <section className="flex items-center justify-center px-5 md:max-w-[1200px] md:mx-auto ">
-            <div className="container max-w-[1200px] py-9 sm:py-14  bg-cover bg-center mt-16 mb-6 
+    <section className="flex items-center justify-center">
+            <div className="container max-w-[1200px] py-9 sm:py-14  bg-cover bg-center mt-6 md:mt-16 
             rounded-[10px] bg-black/75 bg-blend-darken object-cover" style={{ backgroundImage: `url(${bgHero})` }}>
                 {/* <div className=" relative items-center text-center justify-center pt-9 md:pt-20 mx-5 md:max-w-fit md:mx-[140px] "> */}
                 <div className="items-center text-center px-4 sm:pt-10 md:pt-2.5  md:px-10 lg:px-[140px]">
@@ -21,9 +21,11 @@ function Hero() {
                         Anda juga dapat berpartisipasi dalam latihan interaktif yang akan meningkatkan pemahaman Anda.
                     </p>
                 </div>
-                <div className="flex  justify-center  mx-5">
+                <div className="flex  justify-center  mx-5 ">
                     <Button
-                        variant="primary"
+                        // variant="primary"
+                        variant="primary" 
+                        style='hero'
                         >
                         Temukan Video Course untuk Dipelajari!
                         </Button>

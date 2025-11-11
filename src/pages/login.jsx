@@ -1,8 +1,7 @@
-import React from 'react'
-
+import Header from '../layouts/Header.jsx'
 function Login() {
   return (
-    <div>login</div>
+    <Header/> 
   )
 }
 
