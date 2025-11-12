@@ -1,5 +1,5 @@
 import bgHero from '../../assets/hero.jpg'    
-import Button from '../../components/ui/Button'
+import Button from '../../components/ui/ButtonHero'
 function Hero() {
   return (
     <section className="flex items-center justify-center">

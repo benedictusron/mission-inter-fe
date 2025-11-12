@@ -1,5 +1,5 @@
 
-const Button = ({
+const ButtonHero = ({
   children,
   onClick,
   variant = "primary",
@@ -32,4 +32,4 @@ const Button = ({
 
 
 
-export default Button
+export default ButtonHero

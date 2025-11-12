@@ -1,6 +1,6 @@
 import React from 'react'
 import bgBanner from '../../assets/banner.jpg'
-import Button from '../../components/ui/Button'
+import Button from '../../components/ui/ButtonHero'
 
 function BannerCTA() {
     return (
