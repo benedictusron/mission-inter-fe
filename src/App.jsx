@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import { Routes,Route } from 'react-router-dom'
 import './App.css'
-import Login from './pages/Login'
-import Register from './pages/Register'
+import Login from './auth/Pages/Login'
+import Register from './auth/Pages/Register'
 import Beranda from './pages/Home/Home'
 
 function App() {
