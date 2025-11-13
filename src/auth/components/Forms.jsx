@@ -29,7 +29,7 @@ function Forms() {
             <SelectField label="Jenis Kelamin" name="jenisKelamin" required placeholder="Pilih Jenis Kelamin"/>
             }
             {isAuth &&
-            <PhoneField label="Nomor Handphone" name="nomorHandphone" type="number" required/>
+            <PhoneField label="No. Hp" name="nomorHandphone" type="number" required/>
             }
             <PasswordField label="Kata Sandi" name="Password" required placeholder="Masukkan Password"/>
             {isAuth && 
