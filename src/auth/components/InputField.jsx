@@ -10,7 +10,7 @@ function InputField({
             <label
                 htmlFor={name}
                 className='text-black-secondary pb-1'>
-                {label} <span className='text-red-700'>*</span>
+                {label} <span className='text-red-700'> * </span>
             </label>
             <input
                 type={type}
