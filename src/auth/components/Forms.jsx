@@ -11,13 +11,13 @@ function Forms() {
     const location = useLocation();
 
     const handleLogin = () => {
-        navigate("/home");
+        navigate("/");
     }
     const handletoRegister = () => {
         navigate("/register");
     }
     const handletoLogin = () => {
-        navigate("/");
+        navigate("/login");
     }
 
     const isAuth = location.pathname === '/register';

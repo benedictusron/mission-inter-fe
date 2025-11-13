@@ -5,7 +5,7 @@ function ListMenuProfile() {
     const navigate = useNavigate();
 
     const handleLogout = () => {
-        navigate("/");
+        navigate("/login");
     }
     return (
         <div className="absolute -right-8 mt-6 w-screen sm:right-0 sm:mt-3 sm:w-48  bg-white shadow-lg  py-2 border border-gray-100 z-10">
